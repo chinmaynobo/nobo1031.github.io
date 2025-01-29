@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="home" style="padding-inline: 5rem; font-size: 18px; display: grid; place-items: center; height: 100vh;">
+        <div class="home-content" style="display: grid; gap: 5rem; align-items: center;grid-template-columns: 1fr minmax(350px, 450px);">
+            <div class="home-content__left" style="text-align: left; max-width: 650px;">
+                <span>Hi👋, my name is</span>
+                <h1 style="font-size: 5rem;">Chinmay Barua</h1>
+                <p>I am a CSE student, passionate about building amazing websites. I love blending creativity and technical skills to design user-friendly, visually appealing, and functional digital experiences. From brainstorming ideas to crafting responsive layouts, I am committed to delivering web solutions that leave a lasting impact.</p>
+            </div>
+            <img src="CHINMAY.png" alt="" class="home-image" style="box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);">
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a Computer Science Engineering student eager to learn new technologies. I'm excited to expand my knowledge in fields like Artificial Intelligence, Machine Learning, Web Development, and more. I enjoy problem-solving and working on coding challenges.As a Computer Science Engineering student, I am deeply passionate about exploring and mastering emerging technologies. My interests span across Artificial Intelligence, Machine Learning, and Web Development, where I am driven to expand my expertise and stay updated with the latest advancements. I thrive on problem-solving, often engaging in coding challenges to sharpen my skills and enhance my logical thinking. My eagerness to learn and explore new domains fuels my ambition to contribute to innovative projects and make a meaningful impact in the tech industry.</p>
+        </div>
+    </section>
+
+    
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <div class="education-cards">
+                <div class="education-card">
+                    <h3>Bachelor of Science in CSE</h3>
+                    <p><b>Premier University</b></p>
+                    <p>Fall 2023 - Spring 2027</p>
+                    <p>Relevant Courses: Data Structures, Algorithms, Web Development, AI, ML</p>
+                </div>
+                <div class="education-card">
+                    <h3>Higher Secondary</h3>
+                    <p><b>CMP School & College</b></p>
+                    <p>2020 - 2021</p>
+                </div>
+                <div class="education-card">
+                    <h3>Secondary</h3>
+                    <p><b>Mirza Ahmed Ispahani High School</b></p>
+                    <p>2018 - 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="skills-cards">
+                <div class="skill-card">
+                    <h3>Programming Languages</h3>
+                    <p><b>C, Python, Java, C++</b></p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p><b>HTML, CSS, JavaScript</b></p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p><b>Visual Studio Code, AutoCAD, MS Office (Word,
+                        Excel, PowerPoint)</b></p>
+                </div>
+                <div class="skill-card">
+                    <h3>Soft Skills</h3>
+                    <p><b>Problem-solving, Teamwork, Communication</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>My Projects</h2>
+            <div class="projects-gallery">
+                <div class="projects-item">
+                    <img src="1.jpeg" alt="Project 1" class="project-image">
+                    <h3>Project 1: Personal Portfolio Website</h3>
+                    <p>A personal website showcasing my skills, projects, and contact.</p>
+                </div>
+                <div class="projects-item">
+                    <img src="2.jpeg" alt="Project 2" class="project-image">
+                    <h3>Project 2: E-Commerce Website</h3>
+                    <p>An online store platform built with React and Node.js.</p>
+                </div>
+                <div class="projects-item">
+                    <img src="3.jpeg" alt="Project 3" class="project-image">
+                    <h3>Project 3: AI Chatbot</h3>
+                    <p>An AI-based chatbot built using Python and NLP.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="contact">
+        <div class="section-content">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 ChinmayNobo All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
